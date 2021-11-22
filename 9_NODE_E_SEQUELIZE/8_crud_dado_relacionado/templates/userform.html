@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Book</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Adicionar Usuario</h1>
+    <form action="/save-user" method="post">
+      <div>
+        <input type="text" name="name" placeholder="Nome do usuario" required />
+      </div>
+      <div>
+        <input type="text" name="occupation" placeholder="Profissão" required />
+      </div>
+      <div>
+        <input type="text" name="street" placeholder="Endereço" required />
+      </div>
+      <div>
+        <input type="text" name="number" placeholder="Número" required />
+      </div>
+      <div>
+        <input type="text" name="city" placeholder="Cidade" required />
+      </div>
+      <div>
+        <label>Aceitar NewsLetter?</label>
+        <input type="checkbox" name="newsletter" />
+      </div>
+      <div>
+        <input type="submit" value="Cadastrar" />
+      </div>
+    </form>
+  </body>
+</html>

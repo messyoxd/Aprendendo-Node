@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update User</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Atualizar Usuario</h1>
+    <form action="/edit" method="post">
+        <div>
+            <input type="number" name="id" placeholder="Id do usuario à ser editado">
+        </div>
+        <div>
+            <input type="text" name="name" placeholder="Nome do usuario">
+        </div>
+        <div>
+            <input type="text" name="occupation" placeholder="Profissão">
+        </div>
+        <div>
+            <label>Aceitar NewsLetter?</label>
+            <input type="checkbox" name="newsletter">
+        </div>
+        <div>
+            <input type="submit" value="Editar">
+        </div>
+    </form>
+</body>
+</html>

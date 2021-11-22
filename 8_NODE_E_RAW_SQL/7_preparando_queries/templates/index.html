@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Home Express atualizado!</h1>
+    <a href="/add-book">Adicionar livros</a>
+    <a href="/edit-book">Editar livro</a>
+    <form action="/books/" method="get">
+        <label>Buscar Livro</label>
+        <input type="number" name="id" placeholder="Id do livro">
+        <input type="submit" value="Buscar">
+    </form>
+    <form action="/books" method="get">
+        <label>Buscar todos os livros</label>
+        <input type="submit" value="Buscar">
+    </form>
+    <form action="/delete-book" method="post">
+        <label>Deletar livro pelo id</label>
+        <input type="number" name="idBook" placeholder="Id do livro">
+        <input type="submit" value="Deletar">
+    </form>
+</body>
+</html>
